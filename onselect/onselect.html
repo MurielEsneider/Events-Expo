@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" onselect="alert('Texto seleccionado: ' + this.value)">
+
+    <input type="text" onselect="this.style.color = 'red'">
+
+    <input type="text" onselect="copyToClipboard(this)">
+
+    <script src="onselect.js"></script>
+</body>
+</html>

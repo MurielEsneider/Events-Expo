@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+</head>
+<body>
+
+
+    <article>
+        <h1>PREVENT DEFAULT</h1>
+        <a href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiugfml2oOGAxXzQjABHRwLCtgQPAgJ" id="miEnlace">Haz clic aquí</a>
+
+        <input type="text" id="formulario">
+        <button type="button" id="miBoton">SUMBIT</button>
+
+    </article>
+
+
+    <article class="ejercicio1">
+        <p>En esta página, tenemos una galería de productos con imágenes y al hacer clic en un producto, se muestra la imagen ampliada en un área específica de la página.
+
+            En este escenario, se utiliza get attribute para obtener la URL de la imagen del producto seleccionado y set attribute para mostrar esa imagen ampliada.
+             Aquí el primer ejemplo:
+            </p>
+      <div class="galeria">
+        <img src="IMGS/" alt=""></IMG>
+        <img class="producto" src="IMGS/1.jpg" alt="Producto 1" data-imagen-ampliada="img/download (1).jpg">
+        <img class="producto" src="img/2.jpg" alt="Producto 2" data-imagen-ampliada="img/download (2).jpg">
+        <!-- ... más productos ... -->
+      </div>
+      <div class="imagen-ampliada-container">
+        <img class="imagen-ampliada" src="img/download.jpg" alt="Imagen Ampliada">
+        <p>En este ejemplo, cada imagen de producto tiene un atributo adicional data-imagen-ampliada que almacena la URL de la imagen ampliada correspondiente. Cuando se hace clic en un producto, el código JavaScript utiliza get attribute para obtener esta URL y luego utiliza set attribute para mostrar esa imagen ampliada en el área designada.
+        </p>
+      </div>
+
+
+
+
+
+
+
+    </article>
+    
+    <script src="ejercicio1.js"></script>
+</body>
+</html>
